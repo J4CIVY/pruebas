@@ -1,0 +1,30 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+        
+        try {
+
+        Scanner entrada = new Scanner (System.in);
+        System.out.println("Ingrese por favor 1 numero");
+        int variable1 = Integer.parseInt(entrada.nextLine());
+        System.out.println("Ingrese por favor 2 numero");
+        int variable2 = Integer.parseInt(entrada.nextLine());
+        
+        if (variable1 == 5){
+        
+        System.out.println("El Primer Numero Es El Mayor");
+        
+        }else{ 
+        
+        System.out.println("El Segundo Numero Es El Mayor");
+        
+        } 
+            }catch(Exception e) {
+                System.out.println("Valores ingresados no validos");
+        }     
+    }
+}
