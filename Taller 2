@@ -1,0 +1,27 @@
+public class JavaApplication2 {
+
+    public static void main(String[] args) {
+
+        try {
+            
+        Scanner entrada = new Scanner (System.in);
+        System.out.println("Ingrese por favor el numero 5");
+        int variable1 = Integer.parseInt(entrada.nextLine());
+        int variable2 = 0;
+                
+            if (variable1 == 5){
+            
+            System.out.println("Ingrese por favor el numero 20");
+            Scanner entrada2 = new Scanner (System.in);
+            variable2 = Integer.parseInt(entrada2.nextLine());
+        
+        } if (variable2 == 20){
+            
+            
+        }
+            
+        }catch(Exception e) {
+                System.out.println("Valores ingresados no validos");
+        }   
+    }
+}
