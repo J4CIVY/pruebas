@@ -1,0 +1,27 @@
+Perro objPerro = new Perro();
+[{(1) -> Perro} {(2) -> objPerro} = {(3) -> new} {(4) -> Perro()}].
+(1) = Nombre Clase
+(2) = Nombre Instancia
+(3) = Crear Un Espacio de Memoria para la Instancia
+(4) = Constructor
+
+(this) Paralabra reservada para para encpsulamiento
+
+
+
+Acelerar, fremar
+Color y cantidad llantas
+
+
+public class Carro {
+
+    public String colorCarro = "Rojo";
+    public int cantidadLlantas = 4;
+
+    public boolean salidacolorCarro(){
+        System.out.println("El color del carro es =" + colorCarro);
+    }
+    public boolean cantidadLlantas(){
+        System.out.println("La cantidad de llantas es =" + cantidadLlantas);
+    }
+}
