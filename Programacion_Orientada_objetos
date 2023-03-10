@@ -1,0 +1,11 @@
+SOLID -> [SO]LID (Profundizar y averiguar)
+KISS
+
+3 LAYER
+Paquete (Presentacion(Template)(Views))
+Paquete (Logica(Views) (Controler))
+Paquete (Persistencia (Models) -> Base De Datos)
+
+MVC -> Model Visual Control } HTTP (Protocolo)
+MTV -> Model Template View  } HTTP (Protocolo)
+ETL -> Extraction, Transformation, Load
